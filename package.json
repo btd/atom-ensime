@@ -1,0 +1,19 @@
+{
+  "name": "atom-ensime",
+  "main": "./lib/atom-ensime",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/atom-ensime",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0",
+    "node": "*"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "lodash": "^3.9.1",
+    "mkdirp": "^0.5.1",
+    "temp": "^0.8.1"
+  }
+}

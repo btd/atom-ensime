@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "strict": false,
+    "quotes": [2, "single", "avoid-escape"],
+    "no-underscore-dangle": false
+  },
+  "globals": {
+    "atom": true
+  }
+}

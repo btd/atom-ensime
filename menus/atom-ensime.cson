@@ -1,0 +1,23 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Ensime'
+      'submenu': [
+        {
+          'label': 'Start'
+          'command': 'atom-ensime:start'
+        }
+        {
+          'label': 'Stop'
+          'command': 'atom-ensime:stop'
+        }
+        {
+          'label': 'Update'
+          'command': 'atom-ensime:update'
+        }
+      ]
+    ]
+  }
+]
