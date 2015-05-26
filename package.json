@@ -15,5 +15,12 @@
     "lodash": "^3.9.1",
     "mkdirp": "^0.5.1",
     "temp": "^0.8.1"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
   }
 }
