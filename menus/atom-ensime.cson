@@ -6,16 +6,27 @@
       'label': 'Ensime'
       'submenu': [
         {
-          'label': 'Start'
+          'label': 'Start Server'
           'command': 'atom-ensime:start'
         }
         {
-          'label': 'Stop'
+          'label': 'Stop Server'
           'command': 'atom-ensime:stop'
         }
         {
-          'label': 'Update'
+          'label': 'Update Server'
           'command': 'atom-ensime:update'
+        }
+        {
+          type: 'separator'
+        }
+        {
+          'label': 'Typecheck All'
+          'command': 'atom-ensime:typecheck-all'
+        }
+        {
+          'label': 'Typecheck Buffer'
+          'command': 'atom-ensime:typecheck-buffer'
         }
       ]
     ]
